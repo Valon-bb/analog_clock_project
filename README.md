@@ -24,20 +24,11 @@ A pendulum has been added below the clock face. This pendulum swings back and fo
 
 1. **Clone the Repository**: Clone the GitHub repository to your local machine.
 2. **Open the HTML File**: Open the `index.html` file in your preferred web browser to view the clock.
-3. **View on Different Devices**: Resize your browser window or open the clock on different devices to see the responsive design in action.
 
-## GitHub Repository
-
-The project is hosted on a public GitHub repository. You can find the repository link in the `github-repo.txt` file included in the ZIP archive of this project.
-
-## Author
+## Author HTML
 
 This project was created by Reto Froelicher.
 
-## License
+## Author CSS Javascript
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Feel free to explore the code and make modifications as needed. If you have any questions or suggestions, feel free to open an issue on the GitHub repository.
+This project was created by Beda Brunner.
