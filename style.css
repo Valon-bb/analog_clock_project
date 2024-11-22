@@ -1,24 +1,27 @@
 .clock {
+  /* Center the clock on the page */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 420px;
   height: 420px;
   border: 10px solid black;
-  border-radius: 50%;
+  border-radius: 50%; /* Makes the clock round */
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /* Centers the clock */
 }
 
 .outer-clock-face {
+  /* Container for clock markings */
   position: relative;
   width: 100%;
   height: 100%;
 }
 
 .marking {
+  /* Base style for clock markings */
   position: absolute;
   width: 10px;
   height: 10px;
@@ -26,30 +29,35 @@
 }
 
 .marking-one {
+  /* Position for the 12 o'clock marking */
   top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .marking-two {
+  /* Position for the 3 o'clock marking */
   right: 0;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .marking-three {
+  /* Position for the 6 o'clock marking */
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .marking-four {
+  /* Position for the 9 o'clock marking */
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .inner-clock-face {
+  /* Center elements within the clock face */
   position: absolute;
   width: 100%;
   height: 100%;
@@ -59,30 +67,33 @@
 }
 
 .hand {
+  /* Base style for clock hands */
   position: absolute;
   width: 50%;
   height: 6px;
   background-color: black;
   top: 50%;
   left: 50%;
-  transform-origin: left;
-  
+  transform-origin: left; /* Rotates around the left end */
 }
 
 .hour-hand {
+  /* Specific style for the hour hand */
   background-color: black;
   height: 8px;
-  width: 30%;
+  width: 30%; /* Shorter than minute and second hands */
 }
 
 .min-hand {
+  /* Specific style for the minute hand */
   background-color: black;
   height: 6px;
   width: 40%;
 }
 
 .second-hand {
-  background-color: red;
+  /* Specific style for the second hand */
+  background-color: red; /* Typically red for visibility */
   height: 4px;
-  width: 45%;
+  width: 45%; /* Longest hand */
 }
