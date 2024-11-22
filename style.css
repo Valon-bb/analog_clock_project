@@ -23,8 +23,8 @@
 .marking {
   /* Base style for clock markings */
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 20px;
   background-color: black;
 }
 
@@ -39,7 +39,8 @@
   /* Position for the 3 o'clock marking */
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(90deg);
+
 }
 
 .marking-three {
@@ -53,7 +54,7 @@
   /* Position for the 9 o'clock marking */
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(90deg);
 }
 
 .inner-clock-face {
